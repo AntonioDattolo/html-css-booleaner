@@ -1,10 +1,12 @@
 body {
-    margin: 0;
-    margin-left: 1%;
+    margin: 0;    
     padding: 0;
     box-sizing: border-box;
+    margin-bottom: 3%;
+}
 
-    
+main, footer{
+    margin-left: 1%;
 }
 
 .banner {
@@ -12,10 +14,8 @@ body {
     background-image: url(./img/pattern.png);
     background-repeat: repeat;
     background-color: #4f98f7;
-    background-size: 320px;
-    
-    
-    }
+    background-size: 320px;  
+}
 
 .logo {
     height: 9%;
@@ -23,20 +23,26 @@ body {
     position: relative;
     top: 45%;
     left: 5px;
-    }
+}
+
+#titolo{
+    margin-bottom: 0;
+}
 
 #sottotitolo {
-    font-size: 15px;
-    position: relative;
-    top: 25%;
+    font-size: 16px;
+    margin-top: 0;
+    color: grey;
+}
+
+.testo{
+        color:#41b4e9
 }
 
 .tabella{
     width: 100%;
     text-align: left;
-    margin-top: 2% ;
-   
-   
+    margin-top: 2% ; 
 }
 
 .colonna{
