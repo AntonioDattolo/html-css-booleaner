@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    margin-left: 1%;
     padding: 0;
     box-sizing: border-box;
 
@@ -24,8 +25,10 @@ body {
     left: 5px;
     }
 
-.titolo {
-    margin: 0;
+#sottotitolo {
+    font-size: 15px;
+    position: relative;
+    top: 25%;
 }
 
 .tabella{
@@ -52,4 +55,34 @@ body {
 #lista{
     padding-left: 1%;
     margin-top: 1%;
+}
+
+h4{
+    color: grey;
+}
+
+.primo{
+    background-image: url(./img/monitor.jpg);
+    background-size: cover;
+    height: 300px;
+    width: 400px;
+    color: white;
+    font-size: 25px;
+}
+
+.secondo{
+    background-image: url(./img/graph.jpg);
+    margin-top: 15px;
+    background-size: cover;
+    height: 300px;
+    width: 400px;
+    color: white;
+    font-size: 25px;
+}
+
+span{
+    position: relative;
+    left: 5%;
+    top: 2%;
+    font-size: 37px;
 }
